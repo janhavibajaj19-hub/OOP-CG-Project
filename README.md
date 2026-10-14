@@ -1,52 +1,63 @@
 # Ocean Adventure
 
-A 2D ocean adventure game developed in **C++ using SFML** as a mini project for Object-Oriented Programming and Computer Graphics.
+Ocean Adventure is a 2D game developed using C++ and SFML 2.6.1 as part of our Object-Oriented Programming and Computer Graphics mini-project.
 
-## Overview
-
-Ocean Adventure is an interactive game where the player controls a ship and navigates through a dynamic ocean environment. The player must manage changing waves and currents, avoid obstacles, survive different weather conditions, collect resources, and reach designated destinations.
+In this game, the player controls a ship and tries to reach the destination while avoiding rocks and reefs. The player must manage health and fuel, collect fuel and treasure, and navigate through different weather conditions.
 
 ## Features
 
-* Ship navigation and movement
-* Dynamic waves and ocean currents
-* Weather system
-* Obstacles and collision detection
-* Resource collection
-* Health and fuel management
-* Destination-based gameplay
-* 2D animation and visual effects
+- Ship movement using arrow keys
+- Animated ocean background
+- Different weather conditions
+- Rocks and reefs as obstacles
+- Fuel and treasure collection
+- Health, fuel and score system
+- Easy, Medium and Hard difficulty levels
+- Collision detection
+- Win and lose conditions
+- Main menu and instructions screen
 
-## Technology Stack
+## Technologies Used
 
-* **Language:** C++
-* **Graphics Library:** SFML
-* **Development Environment:** Visual Studio Code
-* **Version Control:** Git
-* **Repository:** GitHub
+- C++
+- SFML 2.6.1
+- MinGW-w64
+- Visual Studio Code
 
-## Object-Oriented Programming
+## OOP Concepts Used
 
-The project demonstrates key OOP principles, including:
+- **Encapsulation:** Managing ship data such as health, fuel and score through class members and functions.
+- **Inheritance:** Using base classes such as `GameObject` for different game objects.
+- **Polymorphism:** Using virtual functions to provide different behaviour for derived classes.
+- **Abstraction:** Defining common functionality through the `GameObject` base class.
 
-* Encapsulation
-* Abstraction
-* Inheritance
-* Polymorphism
-* Composition
+## Computer Graphics Concepts
 
-## Computer Graphics
+- 2D shape drawing
+- Object positioning and transformations
+- Animated waves
+- Real-time rendering
+- Collision detection
+- HUD design
 
-The project incorporates concepts such as:
+## Controls
 
-* 2D rendering
-* Coordinate systems
-* Transformations
-* Animation
-* Sprites and textures
-* Collision detection
-* Real-time rendering
+| Key | Action |
+|---|---|
+| Arrow keys | Move the ship |
+| Mouse | Navigate the menu |
+| Escape | Return to the main menu from supported screens |
+| R | Restart after winning or losing |
 
-## Academic Project
+## How to Run
 
-Developed as part of the **Object-Oriented Programming and Computer Graphics** mini project.
+1. Install a compatible C++ compiler and SFML 2.6.1.
+2. Configure the SFML include and library paths.
+3. Compile the project using the required SFML libraries.
+4. Run the generated executable.
+
+## Project Details
+
+**Course:** Object-Oriented Programming and Computer Graphics  
+**Year:** SY Computer Engineering  
+**Project Type:** Mini-project
